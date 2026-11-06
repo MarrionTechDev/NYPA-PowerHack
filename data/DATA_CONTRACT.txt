@@ -1,0 +1,32 @@
+DATA CONTRACT  (owner: Data lead)
+==================================
+Single source of truth for clean.csv. Analyst and Dashboard lead code against THIS,
+not against raw.csv. If the schema changes, update this file and tell the team.
+
+*** CURRENT VERSION DESCRIBES THE TEST DATASET. Replace the columns once the real raw.csv is inspected. ***
+
+File:        data/clean.csv   (also copied to Drive + committed to the repo)
+Encoding:    UTF-8, comma-separated, header row, no index column
+Produced by: notebooks/01_clean.ipynb  (raw.csv -> clean.csv, fully re-runnable)
+
+COLUMNS
+-------
+name         type        allowed values / format        nulls?   notes
+-----------  ----------  -----------------------------  -------  ---------------------
+order_date   datetime    ISO 8601 (YYYY-MM-DD)          no
+category     string      lowercase, trimmed             no       electronics, clothing, home
+region       string      lowercase, trimmed             no       north, south, east, west
+sales        float       >= 0                           no       rows with missing sales are dropped
+
+RULES
+-----
+1. Column names are snake_case, lowercase, no spaces.
+2. No duplicate rows.
+3. Missing values: documented per column above (dropped / imputed / kept as NaN).
+4. Dates parsed to real datetimes, not strings.
+5. clean.csv is overwritten only by 01_clean.ipynb. Nobody edits it by hand.
+
+CHANGELOG
+---------
+v0  initial skeleton
+v1  columns filled in for the test dataset (order_date, category, region, sales)
