@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
-from chart import FUELS, LABELS, check_totals, yearly_shares, energy_mix_chart
+from chart import (FUELS, LABELS, check_totals, yearly_shares, energy_mix_chart,
+                   seasonal_chart, season_averages)
 
 st.set_page_config(page_title="NY Electricity Mix", layout="wide")
 st.title("Where does New York's electricity come from?")
@@ -41,6 +42,14 @@ c2.metric(f"Wind share {last}", f"{shares.loc[last, 'wind']:.1f}%",
           f"{shares.loc[last, 'wind'] - shares.loc[first, 'wind']:+.1f} pts vs {first}")
 c3.metric(f"Hydro share {last}", f"{shares.loc[last, 'hydro']:.1f}%",
           f"{shares.loc[last, 'hydro'] - shares.loc[first, 'hydro']:+.1f} pts vs {first}")
+
+st.subheader("When is demand highest?")
+st.pyplot(seasonal_chart(monthly))
+sa = season_averages(monthly)
+s1, s2, s3, s4 = st.columns(4)
+for col, season in zip((s1, s2, s3, s4), sa.index):
+    col.metric(f"{season} avg", f"{sa[season]:.0f} GWh/day",
+               f"{(sa[season] / sa['Spring'] - 1) * 100:+.0f}% vs Spring" if season != "Spring" else None)
 
 with st.expander("Show the numbers and checks"):
     st.write(f"Max gap between sum of fuels and total: {gap:.0f} MWh (should be 0)")
