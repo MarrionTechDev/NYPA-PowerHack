@@ -1,0 +1,4 @@
+year,natural_gas_mwh,dual_fuel_mwh,nuclear_mwh,hydro_mwh,wind_mwh,other_renewables_mwh,other_fossil_mwh,total_mwh,natural_gas_share_pct,dual_fuel_share_pct,nuclear_share_pct,hydro_share_pct,wind_share_pct,other_renewables_share_pct,other_fossil_share_pct,fossil_share_pct,zero_carbon_share_pct
+2023,29095357,34069200,27568511,27184674,4684018,2225874,170965,124998599,23.28,27.26,22.06,21.75,3.75,1.78,0.14,50.67,49.33
+2024,32286574,35314488,27136684,26976070,6119949,2745399,144774,130723938,24.7,27.01,20.76,20.64,4.68,2.1,0.11,51.82,48.18
+2025,33407356,36669486,28485719,24248709,7122305,3022122,203633,133159330,25.09,27.54,21.39,18.21,5.35,2.27,0.15,52.78,47.22

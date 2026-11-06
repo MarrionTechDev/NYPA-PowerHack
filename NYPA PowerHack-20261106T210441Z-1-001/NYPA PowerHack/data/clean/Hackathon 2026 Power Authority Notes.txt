@@ -1,0 +1,46 @@
+*Highest Energy Generated in July, 2025
+*Lowest Energy Generated in April, 2023
+
+Natural Gas Generation by Month has been increasing over time from Jan 2023 to December 2025
+Dual Fuel Generation by Month has been increasing over time from Jan 2023 to December 2025
+Nuclear Fuel Generation by Month has remained relatively stable.
+Hydro Energy Generation by Month has been decreasing over time.
+Absent some low outlier months in July/August/September of 2025, Wind Power Generation by Month has been increasing over time.
+Other Renewables, by Month, has been trending upward over time.
+Other Fossil, by Month, doesn't have a hard trend, some of the highest months for other fuel occur in the later years.
+Interestingly, the lowest use of Other Fuel by Month is Marth, 2025, with only 749 (This was also the highest Month in the dataset for Wind Power Generation)
+
+The trend seems to indicate that we're generating more energy over time, which can potentially be attributed to the optimization of energy generation of Natural Gas/Dual Fuel/Nuclear/and Other Renewable Energy. There's some potentially underlying reason behind us trending down in Hydro Energy Generation over time, starting in the later half of 2024.
+
+If lower Hydro Energy is attributable to lower average rainfall, it could point to an issue with maintaining stable Hydro Energy output. On the other end, any years/months with higher than average rainfall, can make up for energy shortfalls that may occur with other energy generation methods.
+
+Min Natural Gas Generated in April 2023 (1,794,058)
+Max Natural Gas Generated in July 2025 (3,773,275)
+
+Min Dual Fuel Generated in April, 2025 (1,973,903)
+Max Dual Fuel Generated in July, 2025 (5,272,367)
+
+Min Nuclear Generated in March, 2023 (1,716,707)
+Max Nuclear Generated in December, 2025 (2,488,093)
+
+Min Hydro Generated in September, 2025 (1,697,469)
+Max Hydro Generated in Marth, 2024 (2,579,604)
+
+Min Wind Generated in September, 2023 (213,372)
+Max Wind Generated in March, 2025 (945,623)
+
+Min Other Renewables Generated in Feburary, 2023 (136,344)
+Max Other Renewables Generated in August, 2025 (311,755)
+
+Min Other Fossil Generated in March, 2025 (749)
+Max Other Fossil Generated in July, 2025 (81990)
+
+*With the exception of Hydro Energy, Min Energy generated from each source comes before the Max Energy Generated with each source, further supporting the hypothesis that we're becoming more efficient overtime in generating energy almost across the board.
+
+Interestingly, this also follows the pattern of Min -> Max correlating to a flat or increase over time in energy generation, while Hydro, the only outlier, that follows the pattern of Max -> Min, correlating to a decrease over time in energy generation.
+
+
+
+
+
+

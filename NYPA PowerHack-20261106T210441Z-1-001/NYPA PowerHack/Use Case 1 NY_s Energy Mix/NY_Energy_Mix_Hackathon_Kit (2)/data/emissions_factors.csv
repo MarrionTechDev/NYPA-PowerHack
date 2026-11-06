@@ -1,0 +1,8 @@
+fuel_column,fuel_label,co2_lb_per_mmbtu,heat_rate_btu_per_kwh,central_tco2_per_mwh,low_tco2_per_mwh,high_tco2_per_mwh,basis
+natural_gas,Natural Gas,116.65,7535,0.399,0.399,0.581,"EIA natural gas CO2 coefficient x 2025 avg heat rate, gas combined cycle"
+dual_fuel,Dual Fuel,116.65,10293,0.545,0.399,0.765,"EIA natural gas CO2 coefficient x 2025 avg heat rate, gas steam generator (assumes gas firing; older NYC units)"
+nuclear,Nuclear,0,0,0.0,0.0,0.0,No direct combustion emissions
+hydro,Hydro,0,0,0.0,0.0,0.0,No direct combustion emissions
+wind,Wind,0,0,0.0,0.0,0.0,No direct combustion emissions
+other_renewables,Other Renewables,0,0,0.0,0.0,0.0,Treated as zero direct fossil CO2 (solar zero; biomass/landfill gas CO2 treated as biogenic) - a simplifying assumption
+other_fossil,Other Fossil Fuels,163.45,10319,0.765,0.765,0.975,"EIA distillate fuel oil CO2 coefficient x 2025 avg heat rate, petroleum steam generator"

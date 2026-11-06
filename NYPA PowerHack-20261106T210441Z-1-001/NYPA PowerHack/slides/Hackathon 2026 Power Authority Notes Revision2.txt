@@ -1,0 +1,63 @@
+Initial Analysis:
+*Highest Energy Generated in July, 2025
+*Lowest Energy Generated in April, 2023
+
+Natural Gas Generation by Month has been increasing over time from Jan 2023 to December 2025
+Dual Fuel Generation by Month has been increasing over time from Jan 2023 to December 2025
+Nuclear Fuel Generation by Month has remained relatively stable.
+Hydro Energy Generation by Month has been decreasing over time.
+Absent some low outlier months in July/August/September of 2025, Wind Power Generation by Month has been increasing over time.
+Other Renewables, by Month, has been trending upward over time.
+Other Fossil, by Month, doesn't have a hard trend, some of the highest months for other fuel occur in the later years.
+Interestingly, the lowest use of Other Fuel by Month is Marth, 2025, with only 749 (This was also the highest Month in the dataset for Wind Power Generation)
+
+The trend seems to indicate that we're generating more energy over time, which can potentially be attributed to either better energy generating technology, or a need to generate more energy over time. There's some potentially underlying reason behind us trending down in Hydro Energy Generation over time.
+
+If lower Hydro Energy is attributable to lower average rainfall, it could point to an issue with maintaining stable Hydro Energy output. On the other end, any years/months with higher than average rainfall, can make up for energy shortfalls that may occur with other energy generation methods.
+
+Min Natural Gas Generated in April 2023 (1,794,058)
+Max Natural Gas Generated in July 2025 (3,773,275)
+
+Min Dual Fuel Generated in April, 2025 (1,973,903)
+Max Dual Fuel Generated in July, 2025 (5,272,367)
+
+Min Nuclear Generated in March, 2024 (1,716,707)
+Max Nuclear Generated in December, 2025 (2,488,093)
+
+Min Hydro Generated in September, 2025 (1,697,469)
+Max Hydro Generated in March, 2024 (2,579,604)
+
+Min Wind Generated in September, 2023 (213,372)
+Max Wind Generated in March, 2025 (945,623)
+
+Min Other Renewables Generated in February, 2023 (136,344)
+Max Other Renewables Generated in August, 2025 (311,755)
+
+Min Other Fossil Generated in March, 2025 (749)
+Max Other Fossil Generated in July, 2025 (81990)
+
+With the exception of Hydro Energy, Instances of Max Energy Generated per source, occurs in the later dates of the dataset than Min Energy Generated. This may indicate a growing demand for energy, which may also be impacted by season. This may be indicated by Dual Fuel and Natural Gas Maximums occurring in July 2025 (Summer in the last year in the dataset).
+
+Interestingly, this also follows the pattern of Min -> Max correlating to a flat or increase over time in energy generation, while Hydro, the only outlier, that follows the pattern of Max -> Min, correlating to a decrease over time in energy generation.
+
+Conclusions:
+
+Total generation rose about 8.2 TWh (+6.5%) from 2023 to 2025. Wind and other renewables (+3.2 TWh) roughly replaced the hydro decline (−2.9 TWh). Almost all of the net growth was covered by gas and dual fuel (+6.9 TWh).
+
+
+Hydro’s decline is not just a late-2024 story. Aug–Oct 2025 were each about 20% below the same months in 2023, and Jan–Feb and Dec were down 13–20%.
+
+Demand growth is uneven. Same-month comparisons (2025 vs 2023) show Dec/Jan up about 15%, Jun and Jul up 5–11%, and Sep–Nov flat to −3%. That pattern looks weather-driven (cold winters, hot summers) more than steady growth. 2024→2025 growth was only 1.9%.
+
+Peaks are heat-driven. The highest daily totals are in June and July 2025, when fossil share hit 65–71%. Weekends average about 7.6% lower than weekdays. Hourly load bottoms near 3 AM (about 12.4 GW) and peaks near 6 PM (about 17.1 GW).
+
+Demand growing over time: consistent with the data, but not proven.
+
+Average daily generation rose from about 342,500 MWh (2023) to 357,200 (2024) to 364,800 (2025), roughly +6.5%.
+Three years is too short to separate a trend from weather. Dec and Jan 2025 were about 15% above 2023, while Sep–Nov were flat to slightly down. That uneven pattern looks like cold winters and hot summers more than steady growth.
+Growth slowed from +4.6% to +1.9% between the last two years (partly because 2024 had an extra day).
+Generation isn’t demand. Imports, exports, losses, and curtailment sit in between. Rising generation could also mean this region is exporting more.
+
+
+
+
